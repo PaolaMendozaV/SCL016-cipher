@@ -1,14 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <title>FUNADO</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&family=Russo+One&display=swap" rel="stylesheet">
+ </head>
+ <body>
+            
+     <div id= "box1" class="tituloPie1">
+       <h1 class="funado">FUNADO</h1>
+     <p class="cifraDescifra">cifra y descifra <br> </p>
+      <p class="cifraDescifra2">nombre del funado</p> 
+     <form> 
+            <input type="text" id= "caja1" class="cajaFunadoaqui" placeholder="FUNADO AQUI"><br>
+            <img src="./imagenes/corazon.jpg" class="corazonRotonum"/>
+            <input type="number" min="1" max="50" id="offSetCorazon" class="botonCorazon"> <br>
+            <input type="button" value="CIFRAR" id="btnCifrar" class="botonCifrar1" >
+            <input type="button" value="DESCIFRAR" id="btnDescrifrar" class="botonDescifrar2"/>
+     </form>
+     </div>
+     <!-- codigo pagina siguiente -->
+     <div id="pagSig" class="nextPage"> 
+      <form>
+        <div type="text" id="resultado" class="cajaResultado">
+         </div>
+        <p class="letraResultado">RESULTADO <br> </p>
+        <p class="copiaYpega">Copia y Pega este código <br> en google e identificalo <br> para siempre</p>
+        <p class="amigaDateCuenta"> #AMIGADATECUENTA</p>
+        <p class="cuidate">cuidate y respétate</p>
+        <input type="button" id="reset" class="back"/>
+        <p class="logoFunado">FUNADO</p>
+      </form> 
+     </div>
+     <script src="index.js" type="module"></script>
   </body>
 </html>
