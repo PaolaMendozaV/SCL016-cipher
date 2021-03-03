@@ -10,30 +10,18 @@ boton2.addEventListener ("click", pagSig);
 //BACK PAGE
 
 let reset1 = document.getElementById ("reset"); 
-reset1.addEventListener ("click" , reset); //AQUI ESTOY LLAMANDO A LA FUNCION
-function reset (){
+reset1.addEventListener ("click" , reset); //llamar la función
+function reset (){ //función anónima
     document.getElementById ("box1").style.display = "block"; //se ve
     document.getElementById ("pagSig").style.display = "none"; // no se ve
 
 }
-//mostrar pag siguiente
+//mostrar pag siguiente 
 
  function pagSig() {
-     document.querySelector('.tituloPie1').style.display = "none";
-     document.querySelector('.nextPage').style.display = "block";
-
-
-
-// // //guardar nombre y ejercicios de como obtener valores usando charCodeAt y string.fromCharCode 
+     document.querySelector('.title').style.display = "none"; //no se ve
+     document.querySelector('.nextPage').style.display = "block"; //se ve
     
-// //     let valor = document.querySelector(".cajaFunadoaqui").value; 
-// //     let mayuscula = valor.toUpperCase (); 
-// //     let ascii = mayuscula.charCodeAt (0);
-// //     document.querySelector (".cajaResultado").textContent = ascii;    
-// //     let nueva = ascii + 3;
-// //     console.log (nueva);
-// //     let letraNueva = String.fromCharCode(nueva);
-// //     console.log (letraNueva);     
 }    
 
 //boton cifrar con desplazamiento
@@ -44,7 +32,7 @@ function reset (){
    let offset = parseInt(document.getElementById("offSetCorazon").value); //guardando el offset
 //    console.log (offset);
 
-   let connect = cipher.encode(offset,string);
+   let connect = cipher.encode(offset,string); //conectar cipher.js con index.js
    cipher.encode(offset,string);
    document.getElementById("resultado").innerHTML = connect;
    });
@@ -55,7 +43,8 @@ function reset (){
     let string = (document.getElementById("caja1").value).toUpperCase(); //string es donde voy a poner el mensaje que en id es caja 1
     let offset = parseInt(document.getElementById("offSetCorazon").value); 
     // console.log (offset);
-    let connect = cipher.decode(offset,string);
+    
+    let connect = cipher.decode(offset,string); //conectar cipher.js con index.js
     cipher.decode(offset,string);
    document.getElementById("resultado").innerHTML = connect;
    

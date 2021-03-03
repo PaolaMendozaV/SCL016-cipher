@@ -1,3 +1,4 @@
+/* image body master */
 body{
 background-image: url(./imagenes/funado1.jpg);
 background-repeat: no-repeat;
@@ -7,11 +8,11 @@ height: 812px;
 left: 0px;
 top: 0px;
 }
-
+ /* hidding page */
 .nextPage {
     display: none;
         }
-
+/* logo */
 .funado{
 position: absolute;
 width: 295px;
@@ -28,7 +29,7 @@ line-height: 68px;
 color: #FF5050;
 
 }
-
+/* texts top */
 .cifraDescifra {
 position: absolute;
 width: 245px;
@@ -45,7 +46,7 @@ line-height: 22px;
 color: rgba(248, 38, 38, 0.8);    
 
 }
-
+/* texts top */
 .cifraDescifra2 {
 position: absolute;
 width: 306px;
@@ -63,7 +64,7 @@ color: #F82626;
 
     
 }
-
+/* box 1 page 1 */
 .cajaFunadoaqui {
 position: absolute;
 font-style: normal;
@@ -97,7 +98,7 @@ color: #F4A9C7;
 text-align: center;
 }
 
-
+/* offset button */
 .botonCorazon {
 position: absolute;
 width: 70px;
@@ -113,7 +114,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
 
-
+/* Button heart image  */
 .corazonRotonum {
 position: absolute;
 width: 105px;
@@ -126,7 +127,7 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     
 }
 
-
+/* encode button */
 .botonCifrar1 {
 position: absolute;
 font-family: Russo One;
@@ -143,6 +144,7 @@ box-sizing: border-box;
 box-shadow: 0px 4px 4px rgba(116, 113, 113, 0.25);
 }
 
+/* decode button */
 .botonDescifrar2 {
 position: absolute;
 font-family: Russo One;
@@ -161,7 +163,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 /* NEXT PAGE */
 
-
+/* box page 2 */
 .cajaResultado {
 position: absolute;
 width: 279px;
@@ -173,10 +175,12 @@ background: rgba(251, 101, 101, 0.6);
 border: 1px solid #F4A9C7;
 box-sizing: border-box;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+color:black;
+text-align: center;
 
 }
 
-
+/* text box page 2 */
 .letraResultado {
 position: absolute;
 width: 138px;
@@ -196,6 +200,7 @@ border: 1px solid #F4A9C7;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+/* text page 2 */
 .copiaYpega {
 position: absolute;
 width: 318px;
@@ -250,22 +255,26 @@ color: #F82626;
 
 }
 
-/* logo final*/
-
-.logoFunado {
+/* button VOLVER */
+.back {
 position: absolute;
-width: 298px;
-height: 72px;
-left: 135px;
-top: 740px;
+width: 125px;
+height: 35px;
+left: 125px;
+top: 721px;
+    
+background: #FB6565;
+border: 1px solid #F4A9C7;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px #FB6565;
 
 font-family: Rubik Mono One;
 font-style: normal;
 font-weight: normal;
-font-size: 20px;
-line-height: 25px;
-
-color: rgba(251, 101, 101, 0.4);
-
+font-size: 18px;
+line-height: 22px;
+        
+color: #F4A9C7;
 }
+
 

@@ -8,7 +8,7 @@ const cipher = {
     let resultado = "";
     let box = "";
     if (offset == null || offset == 0 || offset == [] || string == null || string == 0 || string == []) {
-      throw new TypeError('Error, Error'); //para ver si encuentro un error.
+      throw new TypeError('Error, Error'); //para ver si encuentro un error en test.
     }
     for (let i = 0; i < string.length; i++) {
       //Fórmula letras 
@@ -35,7 +35,7 @@ const cipher = {
     let resultado = "";
     let box = "";
     if (offset == null || offset == 0 || offset == [] || string == null || string == 0 || string == []) {
-      throw new TypeError('Error, Error'); //para ver si encuentro un error.
+      throw new TypeError('Error, Error'); //para ver si encuentro un error en test.
     }
     for (let i = 0; i < string.length; i++) {
       //Fórmula letras 
