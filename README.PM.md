@@ -63,7 +63,7 @@ Es difícil tomar la decisión de manifestar un abuso, es por eso que al hacer c
 
 ## 6 Creación maqueta papel
 
-![prototipo-papel]("./imagenes/prototipo-cifrado.jpg")
+![prototipo-papel](imagenes/figma.png)
 
 ## 6.1 Creación maqueta figma
 
