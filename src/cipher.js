@@ -18,11 +18,13 @@ const cipher = {
 
       //Espacio número 32 del Código ASCII
       else if (string.charCodeAt(i) === 32) {
-        box = 32;
+        box = 32; 
+        
+
       }
 
 
-      resultado += String.fromCharCode(box);
+      resultado += String.fromCharCode(box); //+= quiero que el mensaje conecte con los strings y vaya sumando.
     }
 
     return resultado;

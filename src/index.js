@@ -19,7 +19,7 @@ function reset (){ //función anónima
 //mostrar pag siguiente 
 
  function pagSig() {
-     document.querySelector('.title').style.display = "none"; //no se ve
+     document.querySelector('.title').style.display = "none"; //no se ve atacamos al css con el display
      document.querySelector('.nextPage').style.display = "block"; //se ve
     
 }    
@@ -27,7 +27,7 @@ function reset (){ //función anónima
 //boton cifrar con desplazamiento
 
    document.getElementById("btnCifrar").addEventListener("click", () => {
-   let string = (document.getElementById("caja1").value).toUpperCase(); //guardar en la variable texto lo que se escriba en la caja 1
+   let string = (document.getElementById("caja1").value).toUpperCase(); //argumento declarado que llame desde el cipher, guardar en la variable texto lo que se escriba en la caja 1
 //    console.log (string);
    let offset = parseInt(document.getElementById("offSetCorazon").value); //guardando el offset
 //    console.log (offset);

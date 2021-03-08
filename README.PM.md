@@ -63,11 +63,11 @@ Es difícil tomar la decisión de manifestar un abuso, es por eso que al hacer c
 
 ## 6 Creación maqueta papel
 
-![prototipo-papel](imagenes/figma.png)
+![prototipo-papel](https://raw.githubusercontent.com/PaolaMendozaV/SCL016-cipher/master/src/imagenes/figma.png)
 
 ## 6.1 Creación maqueta figma
 
-
+![prototipo-figma](https://raw.githubusercontent.com/PaolaMendozaV/SCL016-cipher/master/src/imagenes/figma.png)
 
 ## 7 Desiciones de diseño
 Quise crear una aplicacion pulcra y simple donde el cifrado cesar pueda utilizarse e incorporarse a una causa donde muchas veces necesitamos privacidad.
